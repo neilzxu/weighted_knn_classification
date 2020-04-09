@@ -56,7 +56,7 @@ def real_exp():
     searches = ['coordinate', 'linear', 'none']
 
     # Load datasets
-    REAL_DIR = '/home/neilxu/work/xc_data/uci_data/covtype'
+    REAL_DIR = 'uci_data/covtype'
     train_X, train_y = load_dataset(os.path.join(REAL_DIR, 'covtype.train'))
     dev_X, dev_y = load_dataset(os.path.join(REAL_DIR, 'covtype.dev'))
     test_X, test_y = load_dataset(os.path.join(REAL_DIR, 'covtype.test'))
