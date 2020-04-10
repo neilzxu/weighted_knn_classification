@@ -1,6 +1,10 @@
 # Code for _Multiclass Classification via Class-Weighted Nearest Neighbors_
 ## Setup
 
+This repo provides supporting Python code for the paper
+
+Khim, J., Xu, A., & Singh, S. (2020). [Multiclass Classification via Class-Weighted Nearest Neighbors](https://arxiv.org/abs/2004.04715). arXiv preprint arXiv:2004.04715.
+
 Requires [conda](https://docs.conda.io/en/latest/) with Python 3.7.
 
 1. Install dependencies with `conda env create -f environment.yml`
